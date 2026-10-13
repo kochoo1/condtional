@@ -1,0 +1,13 @@
+=== Factorial Calculator ===
+Enter a non-negative integer: 9
+Factorial of 9 is: 362880
+Do you want to calculate another factorial? (y/n): y
+Enter a non-negative integer: -9
+Error: Factorial is not defined for negative numbers.
+Do you want to calculate another factorial? (y/n): y
+Enter a non-negative integer: 10
+Factorial of 10 is: 3628800
+Do you want to calculate another factorial? (y/n): y
+Enter a non-negative integer:
+Error: Input cannot be empty. Please enter a valid integer.
+Enter a non-negative integer: 
