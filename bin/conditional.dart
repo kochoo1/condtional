@@ -10,12 +10,12 @@ int getIntegerInput(String prompt) {
         throw FormatException("Input cannot be empty.");
       }
       int value = int.parse(input.trim());
-      return value; // Valid integer
+      return value; 
     } on FormatException catch (e) {
-      // Specific error handling for invalid format
+     
       print("Error: ${e.message} Please enter a valid integer.");
     } catch (e) {
-      // Generic error handling for unexpected issues
+
       print("Unexpected error: $e");
     }
   }
